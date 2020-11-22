@@ -1,0 +1,91 @@
+// npm run watch-css PARA INICIAR SASS
+@import "Colores";
+
+@mixin size($weight,$size) {
+    font-size: $size;
+    font-weight: $weight;
+}
+
+.Fondo{
+    Background: url(../Images/FondoPrueb.png);
+    padding-top: 0.5%;
+}
+.Fondo--SecondBackground{
+    Background: url(../Images/Fondo2.png);
+    background-size: 100%;
+}
+.Fondo--ThirdBackground{
+    Background: url(../Images/Fondo3.png);
+    background-size: 100%;
+    
+}
+.Fondo--FourthBackground{
+    Background: url(../Images/Fondo4.png);
+    background-size: 100%;
+}
+.Caracteristicas{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;   
+}
+.Caracteristicas--SizeOne{
+    @include size(500,80px);
+}
+.Caracteristicas--SizeTwo{
+    @include size(400,60px);
+}
+.Caracteristicas--SizeThree{
+    @include size(500,60px);
+}
+.Caracteristicas--SizeFour{
+    @include size(300,60px);
+}
+.card{
+    font-family: 'Dosis', sans-serif;
+    background-color:$OrangeColor ;
+    color: black;
+    border-radius: 41px;
+}
+.form-control{
+    background-color:rgba(243, 134, 5, 0.57);
+    border-radius: 41px;
+    border-color:rgba(243, 134, 5, 0.57);
+    color: black;
+}
+.Menu{
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    background-color: $OrangeColor;
+    position: fixed;
+    width: 100%;
+    z-index:1000;
+    transition: all 500ms;
+    &:hover{
+        background-color:$DarkColor;
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        transition: all 500ms;
+        &:hover{
+            color: $OrangeColor;
+        }
+    }
+}
+.btn{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    background-color: black;
+    color:$OrangeColor ;
+    border-color: black;
+    transition: 500ms;
+    &:hover{
+        background-color:$DarkColor;
+        border-color:$DarkColor;
+        color: white; 
+    }
+}
+

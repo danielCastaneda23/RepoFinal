@@ -1,0 +1,80 @@
+.Fondo {
+  Background: url(../Images/FondoPrueb.png);
+  padding-top: 0.5%; }
+
+.Fondo--SecondBackground {
+  Background: url(../Images/Fondo2.png);
+  background-size: 100%; }
+
+.Fondo--ThirdBackground {
+  Background: url(../Images/Fondo3.png);
+  background-size: 100%; }
+
+.Fondo--FourthBackground {
+  Background: url(../Images/Fondo4.png);
+  background-size: 100%; }
+
+.Caracteristicas {
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px; }
+
+.Caracteristicas--SizeOne {
+  font-size: 80px;
+  font-weight: 500; }
+
+.Caracteristicas--SizeTwo {
+  font-size: 60px;
+  font-weight: 400; }
+
+.Caracteristicas--SizeThree {
+  font-size: 60px;
+  font-weight: 500; }
+
+.Caracteristicas--SizeFour {
+  font-size: 60px;
+  font-weight: 300; }
+
+.card {
+  font-family: 'Dosis', sans-serif;
+  background-color: #FF9E2D;
+  color: black;
+  border-radius: 41px; }
+
+.form-control {
+  background-color: rgba(243, 134, 5, 0.57);
+  border-radius: 41px;
+  border-color: rgba(243, 134, 5, 0.57);
+  color: black; }
+
+.Menu {
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  background-color: #FF9E2D;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: all 500ms; }
+  .Menu:hover {
+    background-color: #424242;
+    font-size: 18px; }
+  .Menu a {
+    text-decoration: none;
+    color: black;
+    transition: all 500ms; }
+    .Menu a:hover {
+      color: #FF9E2D; }
+
+.btn {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  background-color: black;
+  color: #FF9E2D;
+  border-color: black;
+  transition: 500ms; }
+  .btn:hover {
+    background-color: #424242;
+    border-color: #424242;
+    color: white; }
