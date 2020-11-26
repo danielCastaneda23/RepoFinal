@@ -101,7 +101,7 @@ div{
 }
 .Menu{
     font-family: 'Dosis', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     background-color: $OrangeColor;
     position: fixed;
     width: 100%;
@@ -157,6 +157,29 @@ div{
     &:hover{
     transform: scale(0.95);
     filter: blur(1px) contrast(160%) saturate(2);
+    }
+}
+
+.ColorFooter{
+    background-color:rgba(255, 158, 45, 0.99);
+    filter: brightness(70%);
+    transition: 400ms;
+    &:hover{
+        background-color: $DarkColor;
+        
+    }
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
     }
 }
 
